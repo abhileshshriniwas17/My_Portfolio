@@ -32,8 +32,6 @@ A modern, responsive personal portfolio website built using React to showcase my
 - Water Leakage Detection System
 - Criminal Detection & Alert System
 
-## 🔗 Live Demo
-👉 https://your-portfolio-link.vercel.app
 
 ## 📬 Contact
 - Email: abhileshshriniwas9@gmail.com
