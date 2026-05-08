@@ -9,33 +9,73 @@ function Hero() {
         className="gradient-text"
         initial={{ opacity: 0, y: -60 }}
         animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
       >
         Abhilesh Shriniwas 🚀
       </motion.h1>
 
-      <TypeAnimation
-        sequence={[
-          "AI/ML Developer",
-          1500,
-          "Full Stack Developer",
-          1500,
-          "Building Real-World AI Systems",
-          1500,
-        ]}
-        repeat={Infinity}
-      />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.5, duration: 1 }}
+        style={{ marginTop: "20px", fontSize: "24px", fontWeight: "bold" }}
+      >
+        <TypeAnimation
+          sequence={[
+            "AI/ML Developer 🤖",
+            1500,
+            "Full Stack Developer 💻",
+            1500,
+            "Building Real-World AI Systems 🚀",
+            1500,
+            "Open Source & Innovation Enthusiast 🔥",
+            1500,
+          ]}
+          repeat={Infinity}
+        />
+      </motion.div>
 
-      <p className="subtitle">
+      <motion.p
+        className="subtitle"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1 }}
+      >
         B.Tech CSE (AI & Analytics) | MIT-ADT University
-      </p>
+      </motion.p>
 
-      <a href="https://github.com/abhileshshriniwas17" target="_blank">
-        <button className="btn">GitHub</button>
-      </a>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.3 }}
+        style={{ marginTop: "25px" }}
+      >
 
-      <a href="https://www.linkedin.com/in/abhilesh-shriniwas-569254347/" target="_blank">
-        <button className="btn" style={{ marginLeft: "10px" }}>LinkedIn</button>
-      </a>
+        <a
+          href="https://github.com/abhileshshriniwas17"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="btn">
+            GitHub
+          </button>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/abhilesh-shriniwas-569254347/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button
+            className="btn"
+            style={{ marginLeft: "15px" }}
+          >
+            LinkedIn
+          </button>
+        </a>
+
+      </motion.div>
+
     </div>
   );
 }
