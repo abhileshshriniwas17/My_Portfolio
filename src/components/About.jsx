@@ -10,7 +10,7 @@ function About() {
     >
       <h2>About Me</h2>
       <p>
-          I am Abhilesh Shriniwas, a B.Tech Computer Engineering (AI & Analytics) student at MIT-ADT University, Pune, with a CGPA of 7.97. 
+          I am Abhilesh Shriniwas, a B.Tech Computer Engineering (AI & Analytics) student at MIT-ADT University, Pune, with a CGPA of 8.00/10. 
           I previously completed a Diploma in Computer Engineering with 83.13%, building a strong technical foundation early in my journey.
 
           I have hands-on experience through internships where I worked on Machine Learning models, real-time systems, and full-stack development using MERN and Django. 
