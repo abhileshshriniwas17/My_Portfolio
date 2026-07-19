@@ -26,6 +26,8 @@ function Hero() {
             1500,
             "Full Stack Developer 💻",
             1500,
+            " Data Analyst 📊",
+            1500,
             "Building Real-World AI Systems 🚀",
             1500,
             "Open Source & Innovation Enthusiast 🔥",

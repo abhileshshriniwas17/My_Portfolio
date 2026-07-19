@@ -10,7 +10,7 @@ function Hero() {
         initial={{ opacity: 0, y: -60 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Abhilesh Shriniwas 🚀
+        Abhilesh Shriniwas
       </motion.h1>
 
       <TypeAnimation
@@ -18,6 +18,8 @@ function Hero() {
           "AI/ML Developer",
           1500,
           "Full Stack Developer",
+          1500,
+          "Data Analyst",
           1500,
           "Building Real-World AI Systems",
           1500,
