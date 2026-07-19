@@ -25,10 +25,6 @@ const projects = [
     title: "Water Leakage Detection System",
     desc: "IoT + ML based system to detect and prevent water leakage in real-time",
   },
-  {
-    title: "Criminal Detection & Alert System",
-    desc: "AI-based surveillance system for detecting criminals and generating alerts",
-  },
 ];
 
 function Projects() {
